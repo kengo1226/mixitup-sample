@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 1000px;
+    width: 1000px;
+    background-color: #eeeeee;
+    margin: 0 auto;
+    padding: 50px 10px 100px;
+}
+
+.mixitup {
+    margin-bottom: 20px;
+}
+
+.mixitup button {
+    border: 2px solid violet;
+    background-color: #fff;
+    padding: 3px 10px;
+    font-weight: bold;
+    color: violet;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: 0.2s linear;
+}
+
+.mixitup button:hover {
+    background-color: violet;
+    color: #fff;
+}
+
+.girlsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.category-a {
+    border: 2px solid lightseagreen;
+}
+
+.category-b {
+    border: 2px solid orange;
+}
+
+.therapistBox {
+    width: 230px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.therapistPhoto {
+    width: 100%;
+    height: 200px;
+    background: lightgray;
+}
